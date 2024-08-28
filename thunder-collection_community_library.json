@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "community_library",
+    "collectionId": "e9a0506d-c82d-4881-afab-bc1b21f9064a",
+    "dateExported": "2024-08-26T22:07:51.606Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fe0da7c8-22a2-418d-9d62-565788f9142a",
+            "colId": "e9a0506d-c82d-4881-afab-bc1b21f9064a",
+            "containerId": "",
+            "name": "localhost:3000/users",
+            "url": "localhost:3000/users",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-08-24T19:26:51.685Z",
+            "modified": "2024-08-24T19:27:01.479Z",
+            "headers": []
+        },
+        {
+            "_id": "d58f2a14-f5c2-40b1-bb9e-13b925ed7f8f",
+            "colId": "e9a0506d-c82d-4881-afab-bc1b21f9064a",
+            "containerId": "",
+            "name": "localhost:3000/users",
+            "url": "localhost:3000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-24T19:21:01.535Z",
+            "modified": "2024-08-24T19:34:06.678Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"J\",\n  \"email\": \"yurineudinetropeia@gmail.com\",\n  \"password\": \"123oliveira4\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "-P_WKtoZdPLMFqdDPPnb6aW1PSNd0V8k0V8Zxql5mKbl8VmrT_y6ES2mukqDuuLL8zzk_gmngEZb-ZOlW1oygA"
+}
