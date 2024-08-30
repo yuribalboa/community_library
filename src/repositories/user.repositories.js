@@ -34,7 +34,7 @@ function findUserByEmailRepository(email){
         return new Promise ((resolve, reject) =>{
             db.get(
                 `
-                    SELECT id, username, email, avatar 
+                    SELECT id, username, email, password, avatar 
                     FROM users
                     WHERE email = ?
                 `, [email], 

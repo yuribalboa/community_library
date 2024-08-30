@@ -1,6 +1,6 @@
 import userRepository from '../repositories/user.repositories.js';
 import bcrypt from 'bcrypt';
-import generateJWT from './auth.service.js';
+import authService from './auth.service.js';
 
 async function  createUserService(newUser){    
     const foundUser = await userRepository.findUserByEmailRepository(newUser.email);
@@ -15,10 +15,19 @@ async function  createUserService(newUser){
     });
     
     if(!user) throw new Error("Error creating User");
-    const token = generateJWT(user.id);
+    const token = authService.generateJWT(user.id);
     
     return token;    
 };
+
+async function loginUserService(email, password) {
+    const user = await userRepository.findUserByEmailRepository(email);
+    if (!user) throw new Error("Invalid credentials");
+    const isValid = await bcrypt.compare(password, user.password);
+    if (!isValid) throw new Error("Invalid credentials");
+    const token = authService.generateJWT(user.id);
+    return token;
+  }
 
 async function findAllUsersService() {
     const users = await userRepository.findAllUserRepository();
@@ -37,7 +46,7 @@ async function updateUserService(newUser, userId) {
     if(newUser.password){
         newUser.password = await bcrypt.hash(newUser.password, 10);
     }
-    const userUpdated = userRepository.updateUserRepository(userId, newUser);
+    const userUpdated = await userRepository.updateUserRepository(userId, newUser);
     return userUpdated;
 };
 
@@ -53,5 +62,6 @@ export default {
     findAllUsersService,
     findUserByIdService,
     updateUserService,
-    deleteUserService
+    deleteUserService,
+    loginUserService
 }

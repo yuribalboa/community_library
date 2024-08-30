@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt';
 
 function generateJWT(id){
     return jwt.sign(
-        {id}, 
+        {id: id}, 
         process.env.SECRET_JWT,
         {expiresIn: 86400}
     );
