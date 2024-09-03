@@ -1,13 +1,10 @@
 import bookRepository from '../repositories/book.repositories.js'
-import bcrypt from 'bcrypt';
-import authService from './auth.service.js';
 
-async function  createBookService(newBook, bookId){    
-    const createdBook = await bookRepository.createBookRepository({
+async function  createBookService(newBook, userId){   
+    const createdBook = await bookRepository.createBookRepository(
         newBook, 
-        bookId
-    });
-    
+        userId
+    );
     if(!createdBook) throw new Error("Error creating Book");
        
     return createdBook;    

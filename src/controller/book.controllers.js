@@ -2,10 +2,10 @@ import bookService from '../service/book.services.js';
 
 async function  createBookController(req,res) {
     const newBook = req.body;
-    const bookId = req.bookId;
+    const userId = req.userId;
 
     try{
-        const createdBook = await bookService.createBookService(newBook, bookId);
+        const createdBook = await bookService.createBookService(newBook, userId);
         res.status(201).send({createdBook});
     } catch (err){
         return res.status(400).send(err.message);
