@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import userRouters from './src/routes/user.routes.js';
-import bookRouters from './src/routes/book.routes.js';
-import loanRouters from './src/routes/loan.routes.js';
+import userRouters from './user.routes.js';
+import bookRouters from './book.routes.js';
+import loanRouters from './loan.routes.js';
 
 const routers = Router();
 
