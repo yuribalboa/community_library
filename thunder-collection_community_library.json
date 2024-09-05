@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "community_library",
     "collectionId": "90b0dc7c-cd4e-4864-84ed-aaadca2ae21d",
-    "dateExported": "2024-09-03T18:39:04.721Z",
+    "dateExported": "2024-09-05T03:44:34.438Z",
     "version": "1.2",
     "folders": [
         {
@@ -37,16 +37,16 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-08-26T22:10:51.168Z",
-            "modified": "2024-09-03T18:34:59.592Z",
+            "modified": "2024-09-05T03:35:56.256Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"bookId\": 1,\n  \"dueDate\": \"2024-09-30\"\n}",
+                "raw": "{\n  \"bookId\": 10,\n  \"dueDate\": \"2024-09-06\"\n}",
                 "form": []
             },
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTcyNTM4ODM5NCwiZXhwIjoxNzI1NDc0Nzk0fQ.ZoEkd3H0SU_p4QZZzlfmwCBHS0XfvIS8-Q8sRrGqoOc"
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImlhdCI6MTcyNTUwNzMyMywiZXhwIjoxNzI1NTkzNzIzfQ.xPwWuBVoKo8VJqMwDqsQvav8pZ6NmFwLap7eUBzVJCM"
             }
         },
         {
@@ -58,11 +58,11 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-08-28T22:25:14.328Z",
-            "modified": "2024-08-30T23:27:33.440Z",
+            "modified": "2024-09-05T03:34:33.631Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"username\": \"Gabilela\",\n  \"email\": \"gabigen_07@gmail.com\",\n  \"password\": \"brioquinho\",\n  \"avatar\": \"https://cdn-icons-png.flaticon.com/512/149/149071.png\"\n}\n",
+                "raw": "{\n  \"username\": \"Gabilela\",\n  \"email\": \"gabigen.07@gmail.com\",\n  \"password\": \"brioco1\",\n  \"avatar\": \"https://cdn-icons-png.flaticon.com/512/149/149071.png\"\n}\n",
                 "form": []
             }
         },
@@ -75,11 +75,11 @@
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-08-28T22:28:52.543Z",
-            "modified": "2024-09-03T18:35:13.570Z",
+            "modified": "2024-09-05T03:36:03.194Z",
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTcyNTM4ODM5NCwiZXhwIjoxNzI1NDc0Nzk0fQ.ZoEkd3H0SU_p4QZZzlfmwCBHS0XfvIS8-Q8sRrGqoOc"
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImlhdCI6MTcyNTUwNzMyMywiZXhwIjoxNzI1NTkzNzIzfQ.xPwWuBVoKo8VJqMwDqsQvav8pZ6NmFwLap7eUBzVJCM"
             }
         },
         {
@@ -91,11 +91,11 @@
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-08-28T22:29:52.973Z",
-            "modified": "2024-08-30T23:27:45.241Z",
+            "modified": "2024-09-05T03:35:05.465Z",
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTcyNTA2MDQ1MywiZXhwIjoxNzI1MTQ2ODUzfQ.K33xPiMzEO9wNJVdKSbUlvA6-176p0h3BdOxFi17Gyo"
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQsImlhdCI6MTcyNTUwNjMwNiwiZXhwIjoxNzI1NTkyNzA2fQ.CAWFnogPq63id-wnoX3tOHe1lAvZnC-9YA3oFoi7fIU"
             }
         },
         {
@@ -107,11 +107,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-08-28T22:30:47.475Z",
-            "modified": "2024-08-30T23:28:12.421Z",
+            "modified": "2024-09-05T03:18:26.313Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"gabigen_07@gmail.com\",\n  \"password\": \"brioquinho\"\n}",
+                "raw": "{\n  \"email\": \"yurineudinetropeia@gmail.com\",\n  \"password\": \"teste1\"\n}",
                 "form": []
             }
         },
@@ -168,15 +168,15 @@
             "colId": "90b0dc7c-cd4e-4864-84ed-aaadca2ae21d",
             "containerId": "658ea02b-160f-4c7e-a2c9-72e566197176",
             "name": "DELETE",
-            "url": "http://localhost:3000/users/8",
+            "url": "http://localhost:3000/users/13",
             "method": "DELETE",
             "sortNum": 80000,
             "created": "2024-08-28T22:34:13.252Z",
-            "modified": "2024-08-30T15:08:19.708Z",
+            "modified": "2024-09-05T03:35:19.574Z",
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiaWF0IjoxNzI1MDMwMzc5LCJleHAiOjE3MjUxMTY3Nzl9.2QGRLY_9TH_OEdCcVFSSB_iBM450rkpTGCIRX74aJIg"
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQsImlhdCI6MTcyNTUwNjMwNiwiZXhwIjoxNzI1NTkyNzA2fQ.CAWFnogPq63id-wnoX3tOHe1lAvZnC-9YA3oFoi7fIU"
             }
         },
         {
@@ -214,16 +214,16 @@
             "method": "POST",
             "sortNum": 100000,
             "created": "2024-08-28T22:36:42.026Z",
-            "modified": "2024-09-03T18:38:30.452Z",
+            "modified": "2024-09-05T03:35:40.039Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"title\": \"Harry Potter 2\",\n  \"author\": \"J.K Rowling\"\n}",
+                "raw": "{\n  \"title\": \"O poder do brioquinho\",\n  \"author\": \"Gabriela Gen\"\n}",
                 "form": []
             },
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTcyNTM4ODM5NCwiZXhwIjoxNzI1NDc0Nzk0fQ.ZoEkd3H0SU_p4QZZzlfmwCBHS0XfvIS8-Q8sRrGqoOc"
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsImlhdCI6MTcyNTUwNzMyMywiZXhwIjoxNzI1NTkzNzIzfQ.xPwWuBVoKo8VJqMwDqsQvav8pZ6NmFwLap7eUBzVJCM"
             }
         },
         {
@@ -252,11 +252,11 @@
             "method": "GET",
             "sortNum": 120000,
             "created": "2024-08-28T22:44:22.575Z",
-            "modified": "2024-09-03T17:34:19.833Z",
+            "modified": "2024-09-05T03:19:13.604Z",
             "headers": [],
             "auth": {
                 "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTcyNTM4NDgyNywiZXhwIjoxNzI1NDcxMjI3fQ.Gmes7W5vXFTXX3BNaAvHAbCg_A88oz_1C9MXeAqnuWw"
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQsImlhdCI6MTcyNTUwNjMwNiwiZXhwIjoxNzI1NTkyNzA2fQ.CAWFnogPq63id-wnoX3tOHe1lAvZnC-9YA3oFoi7fIU"
             }
         },
         {
@@ -315,5 +315,5 @@
             }
         }
     ],
-    "ref": "4SPYP013bpbQiZeEyFATit0wEP3sMvhQzzeY_Hma2s5hvvGRXTVhoKNO4nA8v1spVKyGYDsOgbcS-9Lo4PWCwQ"
+    "ref": "4SPYP013bpbQiZeEyFATijp-59fvAn3wn-pPfZn0FCrDK-e0_7DgfKdR-OmJ76jWmDGR2OHuv6JDCFAcMw6FQQ"
 }
