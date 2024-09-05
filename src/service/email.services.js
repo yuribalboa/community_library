@@ -10,6 +10,11 @@ const transporter = nodemailer.createTransport({
 });
 
 function sendEmail(email, username, bookTitle, dueDate){
+    console.log('email ' , {email});
+    console.log('username ' , {username});
+    console.log('bookTitle ' , {bookTitle});
+    console.log('dueDate ' , {dueDate});
+
     const mailOptions = {
         from: process.env.EMAIL,
         to: email,
